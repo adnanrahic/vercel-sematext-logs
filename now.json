@@ -1,0 +1,10 @@
+{
+  "name": "sematext-logs-3",
+  "version": 2,
+  "builds": [{ "src": "./ui/index.js", "use": "@now/node" }],
+  "env": {
+    "CLIENT_ID": "@sematext-client-id",
+    "CLIENT_SECRET": "@sematext-client-secret",
+    "HOST": "@sematext-host"
+  }
+}
